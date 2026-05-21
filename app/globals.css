@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* penting untuk turbopack / tailwind v4 */
+@reference "tailwindcss";
+
+body {
+  @apply bg-black text-white font-sans;
+}
